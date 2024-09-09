@@ -12,8 +12,8 @@ const Login = () => {
         <InputField />
         <PasswordField />
         <LoginButton />
-        <p>계정이 없으신가요?</p> <a href='#'>가입하기</a>
-        <p>또는</p>
+        <div className='allign'><span>계정이 없으신가요?</span> <a href='#'>가입하기</a></div>
+        <p className='allign'>또는</p>
         <SocialButton />
       </div>
     </div>

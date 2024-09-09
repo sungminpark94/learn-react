@@ -2,7 +2,7 @@ import React from 'react'
 
 const PasswordField = () => {
   return (
-    <input type = "text" typeholder="Password" />
+    <input type = "text" placeholder = "Password" className = "input-field" />
   );
 };
 

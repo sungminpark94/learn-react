@@ -38,6 +38,8 @@
     color: black;
     font-weight: bold;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
   }
 
   .social-login-button {
@@ -49,6 +51,12 @@
     background-color: transparent;
     color: white;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .allign {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './components/Card';
+// import Card from './components/Card';
 import Login from './components/Login';
 import "./styles.css";
 
@@ -73,8 +73,8 @@ const App = () => {
   return (
     <>
     <div>
-      <Card title="박성민" subText='박성민짱'/>
-      <Card />
+      {/* <Card title="박성민" subText='박성민짱'/>
+      <Card /> */}
       <Login/>
     </div>
 
