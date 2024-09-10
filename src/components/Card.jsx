@@ -1,17 +1,17 @@
 import React from 'react'
+import CardButton from './CardButton';
 
-const Card = ({title = "박성민", subText=""}) => {
+const Card = ({title, subText}) => {
     //logic
+    
+    //view
     return (
         <div className='card'>
-            <h5>{title}</h5>
-            <p>
+            <h5 className='card-title'>{title}</h5>
+            <p className={"card-title"}>
                 {subText}
             </p>
-
-            <button type="button" className='card-button'>Go somewhere</button>
-
-
+            <CardButton />
         </div>
     )
 }

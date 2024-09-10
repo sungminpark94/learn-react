@@ -1,7 +1,8 @@
 import React from 'react';
-// import Card from './components/Card';
+import Card from './components/Card';
 import Login from './components/Login';
 import "./styles.css";
+import Counter from './components/Counter';
 
 
 const App = () => {
@@ -73,9 +74,10 @@ const App = () => {
   return (
     <>
     <div>
-      {/* <Card title="박성민" subText='박성민짱'/>
-      <Card /> */}
+      {/* <Card title={"김우빈 짱"} subText="후츠릿 짱" />
+      <Card title={"박성민 짱"} subText="박성민 짱" /> */}
       <Login/>
+      {/* <Counter/> */}
     </div>
 
     {/* <div className=''>

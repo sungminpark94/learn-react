@@ -1,9 +1,17 @@
 import React from 'react'
 
-const LoginButton = () => {
+const LoginButton = ({ text, isSocial = false, onClick }) => {
+  const className = isSocial ? "social-login-button" : "login-button";
+  const handleClick = () => {
+    onClick(3);
+  }
   return (
-    <button className="login-button">로그인</button>
-  )
-}
+    <div>
+    <button className={className} type='button' onClick={handleClick}>
+       {text}
+      </button>
+    </div>
+);
+};
 
 export default LoginButton
